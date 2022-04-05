@@ -46,7 +46,7 @@ test('checks to see if player is alive or not', () => {
     expect(player.isAlive()).toBeTruthy();
     player.health = 0;
     expect(player.isAlive()).toBeFalsy();
-})
+});
 
 
 test("subtracts from player's health", () => {
